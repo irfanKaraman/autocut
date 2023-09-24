@@ -16,6 +16,7 @@ RUN apt-get install -y python3
 
 # Install pip
 RUN apt install python3-pip -y
+    pip install --upgrade pip
 
 # Install  Auto-Editor
 RUN pip install auto-editor
